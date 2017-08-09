@@ -34,7 +34,7 @@ def read_xls():
 	offset='Offset'
 	unit='Unit'
 	#EXCEL文件的读取
-	workbook=xlrd.open_workbook(r'BAIC_C40D_ICAN_Matrix_CAN_V03.xls')
+	workbook=xlrd.open_workbook(r'BCAN.xls')
 	sheet5=workbook.sheet_by_name('Matrix')
 	row=sheet5.nrows
 	col=sheet5.ncols
